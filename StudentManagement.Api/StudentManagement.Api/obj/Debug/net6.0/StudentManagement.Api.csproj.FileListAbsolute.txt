@@ -52,3 +52,5 @@ D:\StudentManagement\StudentManagement.Api\StudentManagement.Api\obj\Debug\net6.
 D:\StudentManagement\StudentManagement.Api\StudentManagement.Api\obj\Debug\net6.0\StudentManagement.Api.pdb
 D:\StudentManagement\StudentManagement.Api\StudentManagement.Api\obj\Debug\net6.0\StudentManagement.Api.genruntimeconfig.cache
 D:\StudentManagement\StudentManagement.Api\StudentManagement.Api\obj\Debug\net6.0\ref\StudentManagement.Api.dll
+D:\StudentManagement\StudentManagement.Api\StudentManagement.Api\bin\Debug\net6.0\MediatR.dll
+D:\StudentManagement\StudentManagement.Api\StudentManagement.Api\bin\Debug\net6.0\MediatR.Contracts.dll
