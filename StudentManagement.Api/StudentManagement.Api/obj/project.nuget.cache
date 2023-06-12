@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "dbXiuk3uwjUQsK1kPmF86FUBlZmSoGDYQK1uvruHhKTQgtTtUqoallyT4Hq4finLrckm+biC1ec5jo23l4TKOQ==",
+  "dgSpecHash": "gDNuH6jGJ23YguDQTumXEMySw4Tu3P1j95cu7DJN1P5nysH9kz7Dctzm0P+9N7nvZcKjKGvGiXiCKt/k1SngeQ==",
   "success": true,
   "projectFilePath": "D:\\StudentManagement\\StudentManagement.Api\\StudentManagement.Api\\StudentManagement.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\austin.poonattu\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\austin.poonattu\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\austin.poonattu\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\austin.poonattu\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
     "C:\\Users\\austin.poonattu\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.5\\microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
     "C:\\Users\\austin.poonattu\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.5\\microsoft.entityframeworkcore.analyzers.7.0.5.nupkg.sha512",
