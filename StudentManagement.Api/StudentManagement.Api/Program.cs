@@ -1,11 +1,11 @@
+using Microsoft.EntityFrameworkCore;
+using StudentManagement.Api.Persistence;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+ConfigureServices(builder.Services);
+var dbContext = ConfigureDbContext(builder.Services,builder.Configuration);
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
@@ -22,4 +22,21 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+dbContext.Database.Migrate();
+
 app.Run();
+
+void ConfigureServices(IServiceCollection services)
+{
+    services.AddControllers();
+    services.AddEndpointsApiExplorer();
+    services.AddSwaggerGen();
+}
+
+StudentDbContext ConfigureDbContext(IServiceCollection services,ConfigurationManager configuration)
+{
+    var dbContextOptions = new DbContextOptionsBuilder<StudentDbContext>().UseNpgsql(configuration.GetConnectionString("PostgreSQL")).Options;
+    var dbContext = new StudentDbContext(dbContextOptions);
+    services.AddSingleton(dbContext);
+    return dbContext;
+}
